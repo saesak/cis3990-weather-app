@@ -1,0 +1,104 @@
+body {
+    margin: 0px;
+    margin-left: 0px;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#overall {
+    font-family: Muli;
+    display: flex;
+    flex-direction: column;
+    background-color: #F8F0AB;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-size: 10vw;
+}
+
+h2 {
+    font-size: 5vw;
+}
+
+h3 {
+    font-size: 3.5vw;
+}
+
+#top {
+    flex-direction: row;
+    display: flex;
+    width:100%;
+}
+
+#text-info {
+    flex-direction: column;
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    margin-left: 2.1%;
+}
+
+#sun{
+    display: flex;
+    flex: 3;
+    justify-content: center;
+}
+
+#bottom {
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.tabs {
+    background-color: #C2F9D1;
+    flex:1;
+    text-align: center;
+    border: black;
+    border-style: solid;
+}
+
+#temperature {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -1vw;
+}
+
+#temp1 {
+    flex:1;
+}
+
+#temp2 {
+    flex:1;
+}
+
+#temp3 {
+    flex:1;
+}
+
+#time-graph {
+    display: flex;
+    flex-direction: row;
+}
+
+#time {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    align-items: flex-end;
+}
+
+#graph {
+    flex: 5
+}
+
+#graph img {
+    min-width: 100%;
+}
+
+#time-last {
+    margin-bottom: -2vw;
+}
